@@ -9,3 +9,16 @@
     right: 0;
     text-align: center;
 }
+
+
+#CloseLink {
+    border: 2px solid;
+    padding: 2px 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#CloseLink:hover {
+    color: #FFF;
+    font-weight: bold;
+}
