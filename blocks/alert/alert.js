@@ -5,10 +5,7 @@ export default function decorate(block) {
     const aClose       =  document.createElement("a");
     const pStandard    =  block.querySelector("p");
 
-    //pAlert.innerHTML = alertMessage + "<a id=\"CloseLink\">X</a>";
-    //pStandard.replaceWith(pAlert);
-
-    aClose.innerHTML = "X";
+    aClose.innerHTML = "CHIUDI MESSAGGIO";
     aClose.id = "CloseLink";
     pAlert.innerHTML = alertMessage;
     pStandard.replaceWith(pAlert);
