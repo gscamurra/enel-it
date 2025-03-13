@@ -7,7 +7,7 @@ export default function decorate(block) {
     pAlert.innerHTML = alertMessage + "<a id=\"CloseLink\">X</a>";
     pStandard.replaceWith(pAlert);
 
-    if ( (localStorage.getItem("message-alert") == "close") && window.location.href.search("universal-editor") > 0 ) {
+    if ( (localStorage.getItem("message-alert") == "close") && window.location.href.search("universal-editor") < 0 ) {
         CloseAlert();
     }
         
