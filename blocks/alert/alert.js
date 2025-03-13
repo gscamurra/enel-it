@@ -2,9 +2,16 @@ export default function decorate(block) {
     
     const alertMessage =  block.textContent.trim();
     const pAlert       =  document.createElement("p");
+    const aClose       =  document.createElement("a");
     const pStandard    =  block.querySelector("p");
 
-    pAlert.innerHTML = alertMessage + "<a id=\"CloseLink\">X</a>";
+    //pAlert.innerHTML = alertMessage + "<a id=\"CloseLink\">X</a>";
+    //pStandard.replaceWith(pAlert);
+
+    aClose.innerHTML = "X";
+    aClose.id = "CloseLink";
+    pAlert.innerHTML = alertMessage;
+    pAlert.append(aClose);
     pStandard.replaceWith(pAlert);
 
     if (  (localStorage.getItem("message-alert") == "close") &&  (document.getElementById("exc") == "null") )  {
