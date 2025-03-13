@@ -9,5 +9,4 @@ export default function decorate(block) {
 
     console.log("Alert message: " + divAlert);
 
-
 }
