@@ -11,6 +11,7 @@ export default function decorate(block) {
     function CloseAlert() {
         const element = document.getElementsByClassName("alert-wrapper");
         element[0].remove();
+        localStorage.setItem('message-alert', 'read');
         console.log("Close Alert");
     }
 }
