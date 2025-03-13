@@ -9,7 +9,7 @@ export default function decorate(block) {
 
     console.log( "exc: " + getElementById("exc") )
 
-    if (  (localStorage.getItem("message-alert") == "close") &&  (document.getElementById("exc") == "null") )  {
+    if  (localStorage.getItem("message-alert") == "close")    {
         CloseAlert();
     }
         
