@@ -2,8 +2,8 @@ export default function decorate(block) {
     
     const alertMessage = block.textContent.trim();
 
-    divAlert.setAttribute('id', "alert-container");
-    divAlert.innerHTML = "<p>" + alertMessage + "<a id=\"CloseLink\">X</a></p>";
+
+    //divAlert.innerHTML = "<p>" + alertMessage + "<a id=\"CloseLink\">X</a></p>";
     
     console.log(block.childNodes[0]);
     console.log(block.childNodes);
