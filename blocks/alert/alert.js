@@ -6,14 +6,8 @@ export default function decorate(block) {
     
     const alertMessage = block.textContent.trim();
     const divAlert = document.createElement("div");
-    var closeLink = document.createElement("a");
-
-    closeLink.href = "javascript:void(0)";
-    closeLink.id = "CloseLink";
-    closeLink.textContent = "Ok, chiudi finestra";
-
-
-    divAlert.innerHTML = "<p>" + alertMessage + "</p>" + closeLink;     
+    
+    divAlert.innerHTML = "<p>" + alertMessage + "</p><a id=\"closeLink\">Ok, chiudi finestra</a>";     
     block.replaceWith(divAlert);
     
     console.log("Alert message: " + divAlert);
