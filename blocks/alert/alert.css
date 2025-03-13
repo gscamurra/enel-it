@@ -2,7 +2,10 @@
     background-color: #d3135a;
     color: #FFF;
     display: block;
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    top: 200px;
+    max-width: 100% !important;
     left: 0;
+    right: 0;
+    text-align: center;
 }
