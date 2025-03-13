@@ -909,14 +909,14 @@
     ]
   },
   {
-    "id": "Alert",
+    "id": "alert",
     "fields": [
       {
         "component": "richtext",
         "valueType": "string",
         "name": "message",
         "value": "",
-        "label": ""
+        "label": "Message"
       },
       {
         "component": "richtext",
