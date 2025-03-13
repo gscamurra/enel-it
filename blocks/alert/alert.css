@@ -3,7 +3,7 @@
     color: #FFF;
     display: block;
     position: fixed;
-    top: 200px;
+    bottom: 0;
     max-width: 100% !important;
     left: 0;
     right: 0;
