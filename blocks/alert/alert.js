@@ -7,11 +7,12 @@ export default function decorate(block) {
     block.replaceWith(divAlert);
     
     console.log("Alert message: " + divAlert);
+
+    document.getElementById("CloseLink").onclick = displayDate;
+    function displayDate() {
+    console.log("hey!");
+    }
 }
 
 
 
-document.getElementById("CloseLink").onclick = displayDate;
-function displayDate() {
-  document.getElementById("CloseLink").innerHTML = Date();
-}
