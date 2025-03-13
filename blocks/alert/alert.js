@@ -6,7 +6,7 @@ export default function decorate(block) {
     
     const alertMessage = block.textContent.trim();
     const divAlert = document.createElement("div");
-    const closeLink = document.createElement("a");
+    var closeLink = document.createElement("a");
 
     closeLink.href = "javascript:void(0)";
     closeLink.id = "CloseLink";
