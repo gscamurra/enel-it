@@ -11,7 +11,7 @@ export default function decorate(block) {
     pStandard.replaceWith(pAlert);
     block.append(aClose);
 
-    if (  (localStorage.getItem("message-alert") == "close") &&  (document.getElementById("exc") == "null") )  {
+    if (  (localStorage.getItem("message-alert") == "close") &&  (document.getElementById("exc") != "null") )  {
         CloseAlert();
     }
         
