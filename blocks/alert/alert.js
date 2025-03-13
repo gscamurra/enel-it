@@ -7,9 +7,7 @@ export default function decorate(block) {
     pAlert.innerHTML = alertMessage + "<a id=\"CloseLink\">X</a>";
     pStandard.replaceWith(pAlert);
 
-    console.log( "exc: " + getElementById("exc") )
-
-    if  (localStorage.getItem("message-alert") == "close")    {
+    if (  (localStorage.getItem("message-alert") == "close") &&  (document.getElementById("exc") == "null") )  {
         CloseAlert();
     }
         
