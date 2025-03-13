@@ -3,7 +3,7 @@ export default function decorate(block) {
     function CloseAlert() {
         console.log("Event close Alert");
     }
-    
+
     const alertMessage = block.textContent.trim();
     const divAlert = document.createElement("div");
     
@@ -11,5 +11,4 @@ export default function decorate(block) {
     block.replaceWith(divAlert);
     
     console.log("Alert message: " + divAlert);
-
 }
