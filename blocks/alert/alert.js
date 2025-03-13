@@ -5,8 +5,8 @@ export default function decorate(block) {
 
     //divAlert.innerHTML = "<p>" + alertMessage + "<a id=\"CloseLink\">X</a></p>";
     
-    console.log(block.childNodes[0]);
-    console.log(block.childNodes);
+    console.log(" Node: " +block.childNodes[0]);
+    //console.log(block.childNodes);
     
     //block.replaceWith(divAlert);
     
