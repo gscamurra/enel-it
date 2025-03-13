@@ -6,12 +6,16 @@ export default function decorate(block) {
 
     pAlert.innerHTML = alertMessage + "<a id=\"CloseLink\">X</a>";
     pStandard.replaceWith(pAlert);
+
+    if (localStorage.getItem("message-alert") == "close" ) {
+        CloseAlert();
+    }
         
     document.getElementById("CloseLink").onclick = CloseAlert;    
     function CloseAlert() {
         const element = document.getElementsByClassName("alert-wrapper");
         element[0].remove();
-        localStorage.setItem('message-alert', 'read');
+        localStorage.setItem('message-alert', 'close');
         console.log("Close Alert");
     }
 }
