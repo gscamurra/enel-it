@@ -1,4 +1,11 @@
 export default function decorate(block) {
+
+    function CloseAlert() {
+        const element = document.getElementsByClassName("alert-wrapper");
+        element[0].remove();
+        localStorage.setItem('message-alert', 'close');
+        console.log("Close Alert");
+    }
     
     const alertMessage =  block.textContent.trim();
     const pAlert       =  document.createElement("p");
@@ -13,22 +20,8 @@ export default function decorate(block) {
        
     document.getElementById("CloseLink").onclick = CloseAlert;    
     
-    function CloseAlert() {
-        const element = document.getElementsByClassName("alert-wrapper");
-        element[0].remove();
-        localStorage.setItem('message-alert', 'close');
-        console.log("Close Alert");
-    }
-
-
     if ( localStorage.getItem("message-alert") == "close" ) {
-        if (false) {
-            console.log("dis x");
             CloseAlert();
-        }
      }
-
-
-
 
 }
