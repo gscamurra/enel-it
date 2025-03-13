@@ -8,3 +8,10 @@ export default function decorate(block) {
     
     console.log("Alert message: " + divAlert);
 }
+
+
+
+document.getElementById("CloseLink").onclick = displayDate;
+function displayDate() {
+  document.getElementById("CloseLink").innerHTML = Date();
+}
