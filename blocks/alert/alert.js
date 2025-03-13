@@ -4,10 +4,11 @@ export default function decorate(block) {
     const divAlert = document.createElement("div");
 
     divAlert.setAttribute('id', "alert-container");
-    divAlert.innerHTML = "<p>" + alertMessage + "<a id=\"CloseLink\">Ok, chiudi finestra</a></p>";     
+    divAlert.innerHTML = "<p>" + alertMessage + "<a id=\"CloseLink\">X</a></p>";     
     block.replaceWith(divAlert);
     
     document.getElementById("CloseLink").onclick = CloseAlert;
+    
     function CloseAlert() {
         const element = document.getElementById("alert-container");
         element.remove();
