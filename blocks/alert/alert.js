@@ -10,7 +10,7 @@ export default function decorate(block) {
     document.getElementById("CloseLink").onclick = CloseAlert;    
     function CloseAlert() {
         const element = document.getElementsByClassName("alert-wrapper");
-        element.remove();
+        element[0].remove();
         console.log("Close Alert");
     }
 }
