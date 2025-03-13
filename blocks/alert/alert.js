@@ -22,9 +22,7 @@ export default function decorate(block) {
 
 
     if (  (localStorage.getItem("message-alert") == "close") &&  (document.getElementById("exc") == null) )  {
-        
-        console.log ("Disabilita X");
-        //CloseAlert();
+        CloseAlert();
      }
 
 }
