@@ -1,8 +1,13 @@
 export default function decorate(block) { 
     
     const alertMessage = block.textContent.trim();
+    const divAlert = document.createElement("div");
 
-    console.log("Alert message: " + alertMessage);
+    divAlert.innerHTML("<p>" + alertMessage + "</p>");    
+    
+    block.append(divAlert);
+
+    console.log("Alert message: " + divAlert);
 
 
 }
