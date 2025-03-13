@@ -914,9 +914,9 @@
       {
         "component": "richtext",
         "valueType": "string",
-        "name": "quotation",
+        "name": "message",
         "value": "",
-        "label": "Quotation"
+        "label": ""
       },
       {
         "component": "richtext",
