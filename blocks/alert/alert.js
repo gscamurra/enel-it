@@ -5,7 +5,7 @@ export default function decorate(block) {
 
     divAlert.innerHTML = "<p><b>" + alertMessage + "</b></p>";    
     
-    block.append(divAlert);
+    block.replaceWith(divAlert);
 
     console.log("Alert message: " + divAlert);
 
