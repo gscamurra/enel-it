@@ -3,7 +3,7 @@ export default function decorate(block) {
     const alertMessage = block.textContent.trim();
     const divAlert = document.createElement("div");
 
-    divAlert.innerHTML = "<p><b>" + alertMessage + "</b></p>";    
+    divAlert.innerHTML = "<p>" + alertMessage + "</p>";    
     
     block.replaceWith(divAlert);
 
