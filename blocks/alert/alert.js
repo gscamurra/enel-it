@@ -5,6 +5,7 @@ export default function decorate(block) {
 
     pAlert.innerHTML = alertMessage + "<a id=\"CloseLink\">X</a>";
     block.append(pAlert);
+    console.log(pAlert);
     
     document.getElementById("CloseLink").onclick = CloseAlert;    
     function CloseAlert() {
