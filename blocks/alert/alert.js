@@ -12,10 +12,11 @@ export default function decorate(block) {
     block.append(aClose);
 
     if (  (localStorage.getItem("message-alert") == "close") &&  (document.getElementById("exc") == null) )  {
-        CloseAlert();
+       // CloseAlert();
     }
         
     document.getElementById("CloseLink").onclick = CloseAlert;    
+    
     function CloseAlert() {
         const element = document.getElementsByClassName("alert-wrapper");
         element[0].remove();
