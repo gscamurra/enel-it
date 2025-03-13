@@ -3,19 +3,15 @@ export default function decorate(block) {
     const alertMessage = block.textContent.trim();
     const divAlert = document.createElement("div");
 
-    divAlert.setAttribute('id', "div-alert");
+    divAlert.setAttribute('id', "alert-container");
     divAlert.innerHTML = "<p>" + alertMessage + "<a id=\"CloseLink\">Ok, chiudi finestra</a></p>";     
     block.replaceWith(divAlert);
     
-    console.log("Alert message: " + divAlert);
-
     document.getElementById("CloseLink").onclick = CloseAlert;
-    
     function CloseAlert() {
-        const element = document.getElementById("div-02");
+        const element = document.getElementById("alert-container");
         element.remove();
         console.log("Close Alert");
-
     }
 }
 
