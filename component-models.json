@@ -909,6 +909,25 @@
     ]
   },
   {
+    "id": "Alert",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "Alert",
+        "value": "",
+        "label": "Alert"
+      },
+      {
+        "component": "richtext",
+        "name": "attribution",
+        "value": "",
+        "label": "Author",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "table",
     "fields": [
       {
