@@ -1,8 +1,6 @@
 export default function decorate(block) {
     
-    document.getElementById("CloseLink").onclick = function() {
-        console.log("Event close Alert");
-    }
+   
 
     const alertMessage = block.textContent.trim();
     const divAlert = document.createElement("div");
