@@ -917,13 +917,6 @@
         "name": "message",
         "value": "",
         "label": "Message"
-      },
-      {
-        "component": "richtext",
-        "name": "attribution",
-        "value": "",
-        "label": "Author",
-        "valueType": "string"
       }
     ]
   },
