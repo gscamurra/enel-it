@@ -10,11 +10,7 @@ export default function decorate(block) {
     pAlert.innerHTML = alertMessage;
     pStandard.replaceWith(pAlert);
     block.append(aClose);
-
-    if (  (localStorage.getItem("message-alert") == "close") &&  (document.getElementById("exc") == null) )  {
-       // CloseAlert();
-    }
-        
+       
     document.getElementById("CloseLink").onclick = CloseAlert;    
     
     function CloseAlert() {
@@ -23,6 +19,14 @@ export default function decorate(block) {
         localStorage.setItem('message-alert', 'close');
         console.log("Close Alert");
     }
+
+
+    if (  (localStorage.getItem("message-alert") == "close") &&  (document.getElementById("exc") == null) )  {
+        
+        console.log ("Disabilita X");
+        //CloseAlert();
+     }
+
 }
 
 
