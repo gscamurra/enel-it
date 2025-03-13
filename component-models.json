@@ -914,9 +914,9 @@
       {
         "component": "richtext",
         "valueType": "string",
-        "name": "Alert",
+        "name": "quotation",
         "value": "",
-        "label": "Alert"
+        "label": "Quotation"
       },
       {
         "component": "richtext",
