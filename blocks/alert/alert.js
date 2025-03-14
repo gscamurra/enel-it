@@ -20,8 +20,6 @@ export default function decorate(block) {
        
     document.getElementById("CloseLink").onclick = CloseAlert; 
     
-    console.log("page: " + document.getElementById("editor-app") );
-    
     if ( localStorage.getItem("message-alert") == "close" ) {
             CloseAlert();
      }
