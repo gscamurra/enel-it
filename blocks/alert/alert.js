@@ -17,6 +17,8 @@ export default function decorate(block) {
     pAlert.innerHTML = alertMessage;
     pStandard.replaceWith(pAlert);
     block.append(aClose);
+
+    console.log("Page: " + window.location.href.search("universal-editor"));
        
     document.getElementById("CloseLink").onclick = CloseAlert;    
     
