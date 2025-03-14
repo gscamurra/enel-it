@@ -17,6 +17,7 @@
     cursor: pointer;
     font-weight: bold;
     font-size: 10px;
+    text-decoration: none;
 }
 
 #CloseLink:hover {
