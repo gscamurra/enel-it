@@ -17,10 +17,10 @@ export default function decorate(block) {
     pAlert.innerHTML = alertMessage;
     pStandard.replaceWith(pAlert);
     block.append(aClose);
-
-    console.log("Page: " + window.location.href.search("universal-editor"));
        
-    document.getElementById("CloseLink").onclick = CloseAlert;    
+    document.getElementById("CloseLink").onclick = CloseAlert; 
+    
+    console.log("page: " + document.getElementById("editor-app") );
     
     if ( localStorage.getItem("message-alert") == "close" ) {
             CloseAlert();
