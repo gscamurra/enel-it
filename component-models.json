@@ -537,6 +537,10 @@
             "value": "phones"
           },
           {
+            "name": "Occhiali",
+            "value": "occhiali-da-sole"
+          },
+          {
             "name": "Watches",
             "value": "watches"
           },
