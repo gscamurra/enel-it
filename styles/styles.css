@@ -795,7 +795,7 @@ h2 {
   color: #d3135a !important;
 }
 
-.six-blocks .columns.block {
+.six-blocks .columns.block p {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
