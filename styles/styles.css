@@ -785,9 +785,20 @@ h2 {
 }
 
 h3 a {
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: bold;
+  text-decoration: none !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+}
+
+h3 a:hover {
+  color: #d3135a;
+}
+
+h3 {
+  display: block;
+  bottom: -104px;
+  position: relative;
+  left: 19px;
 }
 
 h5 {
