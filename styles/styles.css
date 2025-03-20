@@ -777,6 +777,20 @@ main .section.author .content-wrapper p:nth-child(2) {
   text-decoration: solid underline var(--color-neutral-900);
 }
 
+h2 {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+h5 {
+  color: #667790;
+  font-size: 13px;
+  text-align: center;
+  width: 100%;
+}
+
 @media (width <= 768px) {
   .breadcrumb-wrapper {
     padding: 1rem;
