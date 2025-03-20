@@ -204,6 +204,10 @@
               {
                 "name": "PDP Enrichment",
                 "value": "pdp-enrichment"
+              },
+              {
+                "name": "Six blocks",
+                "value": "six-blocks"
               }
             ]
           },
