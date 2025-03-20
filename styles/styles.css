@@ -795,11 +795,9 @@ h2 {
   color: #d3135a !important;
 }
 
-.six-blocks h3 {
-  display: block;
-  /*bottom: -98px;*/
-  position: relative;
-  left: 24px;
+.six-blocks .columns.block {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 h5 {
