@@ -792,6 +792,7 @@ h2 {
 
 .six-blocks h3 a:hover {
   color: #d3135a !important;
+  font-weight: bold !important;
 }
 
 .six-blocks .columns.block p {
