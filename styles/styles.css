@@ -791,7 +791,7 @@ h3 a {
 }
 
 h3 a:hover {
-  color: #d3135a;
+  color: #d3135a !important;
 }
 
 h3 {
