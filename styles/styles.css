@@ -797,7 +797,7 @@ h2 {
 
 .six-blocks h3 {
   display: block;
-  bottom: -98px;
+  /*bottom: -98px;*/
   position: relative;
   left: 24px;
 }
