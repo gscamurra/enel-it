@@ -788,6 +788,7 @@ h3 a {
   text-decoration: none !important;
   font-size: 16px !important;
   font-weight: bold !important;
+  color: #3a4a62;
 }
 
 h3 a:hover {
