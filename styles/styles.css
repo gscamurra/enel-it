@@ -788,6 +788,7 @@ h2 {
   font-size: 18px !important;
   font-weight: bold !important;
   color: #3a4a62;
+  text-decoration: none !important;
 }
 
 .six-blocks h3 a:hover {
