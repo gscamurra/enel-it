@@ -545,6 +545,10 @@
             "value": "occhiali-da-sole"
           },
           {
+            "name": "Climatizzatori",
+            "value": "climatizzatori"
+          },
+          {
             "name": "Watches",
             "value": "watches"
           },
@@ -565,8 +569,8 @@
             "value": "orologi"
           },
           {
-            "name": "Climatizzatori",
-            "value": "climatizzatori"
+            "name": "Streaming",
+            "value": "streaming"
           }
         ]
       }
