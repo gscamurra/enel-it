@@ -561,6 +561,10 @@
             "value": "plans"
           },
           {
+            "name": "Orologi",
+            "value": "orologi"
+          },
+          {
             "name": "Streaming",
             "value": "streaming"
           }
