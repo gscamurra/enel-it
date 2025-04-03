@@ -855,11 +855,6 @@ h5 {
   font-size: 17px;
 }
 
-.scontrino p strong {
-  font-size: 13px !important;
-}
-
-
 @media (width <= 768px) {
   .breadcrumb-wrapper {
     padding: 1rem;
