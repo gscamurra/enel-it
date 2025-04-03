@@ -855,6 +855,20 @@ h5 {
   font-size: 17px;
 }
 
+.scontrino a {
+  text-align: center !important;
+  width: 100%  !important;
+  display: block  !important;
+  background-color: #d3135a  !important;
+  border-radius: 9px  !important;
+  color: #FFF  !important;
+  text-decoration: none  !important;
+}
+
+.scontrino a:hover {
+  
+}
+
 @media (width <= 768px) {
   .breadcrumb-wrapper {
     padding: 1rem;
