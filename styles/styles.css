@@ -830,6 +830,19 @@ h5 {
   border-radius: 10px !important;
 }
 
+.scontrino h5 strong {
+  -webkit-text-fill-color: transparent;
+  background: -webkit-gradient(linear, left top, right top, from(#0047cc), to(#3b80ff));
+  background: linear-gradient(90deg, #0047cc, #3b80ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 42px;
+}
+
 @media (width <= 768px) {
   .breadcrumb-wrapper {
     padding: 1rem;
