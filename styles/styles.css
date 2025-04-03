@@ -870,12 +870,19 @@ h5 {
 }
 
 .scontrino ol {
-  list-style-type: none !important
+  list-style-type: none !important;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .scontrino ol li {
   display: inline;
-  color: #3b80ff;
+    background: #3b80ff;
+    color: #FFF;
+    margin-right: 22px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
 }
 
 @media (width <= 768px) {
