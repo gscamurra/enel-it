@@ -810,6 +810,16 @@ h5 {
   width: 100%;
 }
 
+.scontrino h2 {
+  text-align: left;
+  font-size: 20px;
+  background: #f5b714;
+  padding: 0;
+  margin-top: 0;
+  padding-left: 13px;
+  border-radius: 10px;
+}
+
 @media (width <= 768px) {
   .breadcrumb-wrapper {
     padding: 1rem;
