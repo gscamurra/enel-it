@@ -866,7 +866,16 @@ h5 {
 }
 
 .scontrino a:hover {
-  
+
+}
+
+.scontrino ol {
+  list-style-type: none !important
+}
+
+.scontrino ol li {
+  display: inline;
+  color: #3b80ff;
 }
 
 @media (width <= 768px) {
