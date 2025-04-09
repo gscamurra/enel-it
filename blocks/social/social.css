@@ -4,7 +4,7 @@ footer .wrapper .section.social-container {
 }
 
 footer .wrapper .section.social-container .social {
-  background: black;
+  background: transparent;
   gap: 1rem;
   display: flex;
   justify-content: flex-end;
