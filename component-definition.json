@@ -118,8 +118,9 @@
                 "template": {
                   "name": "Social",
                   "model": "social",
-                  "heading": "Social",
-                  "headingType": "h1"
+                  "instagram_icon": ":instagram:",
+                  "facebook_icon": ":facebook:",
+                  "twitter_icon": ":twitter:"
                 }
               }
             }
