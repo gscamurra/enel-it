@@ -66,6 +66,18 @@
     ]
   },
   {
+    "id":"customText",
+    "fields":[
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "customText",
+        "value": "Default text",
+        "label": "Custom Text"
+      }
+    ]
+  },
+  {
     "id": "title",
     "fields": [
       {
