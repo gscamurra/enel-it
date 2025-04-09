@@ -110,52 +110,6 @@
       }
     ]
   },
-  ,
-  {
-    "id": "social",
-    "fields": [
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "jcr:title",
-        "value": "",
-        "label": "Text"
-      },
-      {
-        "component": "select",
-        "name": "type",
-        "value": "h1",
-        "label": "Type",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "h1",
-            "value": "h1"
-          },
-          {
-            "name": "h2",
-            "value": "h2"
-          },
-          {
-            "name": "h3",
-            "value": "h3"
-          },
-          {
-            "name": "h4",
-            "value": "h4"
-          },
-          {
-            "name": "h5",
-            "value": "h5"
-          },
-          {
-            "name": "h6",
-            "value": "h6"
-          }
-        ]
-      }
-    ]
-  },
   {
     "id": "image",
     "fields": [
@@ -476,6 +430,81 @@
         "name": "content_link",
         "value": "",
         "label": "Button Link",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "social",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "content_linkText",
+        "label": "Button Text",
+        "value": ""
+      },
+      {
+        "component": "aem-content",
+        "name": "instagram_iconLink",
+        "value": "",
+        "label": "Instagram Link",
+        "valueType": "string"
+      },
+      {
+        "component": "select",
+        "name": "facebook_icon",
+        "value": "",
+        "label": "Facebook Icon",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Facebook",
+            "value": ":facebook:"
+          },
+          {
+            "name": "Instagram",
+            "value": ":instagram:"
+          },
+          {
+            "name": "Twitter/X",
+            "value": ":twitter:"
+          }
+        ]
+      },
+      {
+        "component": "aem-content",
+        "name": "facebook_iconLink",
+        "value": "",
+        "label": "Facebook Link",
+        "valueType": "string"
+      },
+      {
+        "component": "select",
+        "name": "twitter_icon",
+        "value": "",
+        "label": "Twitter Icon",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Facebook",
+            "value": ":facebook:"
+          },
+          {
+            "name": "Instagram",
+            "value": ":instagram:"
+          },
+          {
+            "name": "Twitter/X",
+            "value": ":twitter:"
+          }
+        ]
+      },
+      {
+        "component": "aem-content",
+        "name": "twitter_iconLink",
+        "value": "",
+        "label": "Twitter Link",
         "valueType": "string"
       }
     ]
