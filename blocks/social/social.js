@@ -1,56 +1,21 @@
-import { decorateIcons } from '../../scripts/aem.js';
-import {
-  div, span, a,
-} from '../../scripts/dom-builder.js';
-
-const SOCIAL_CONFIGS = [
-  {
-    name: 'facebook',
-    link: 'https://www.facebook.com/SAP',
-  },
-  {
-    name: 'twitter',
-    link: 'https://twitter.com/sap',
-  },
-  {
-    name: 'youtube',
-    link: 'https://www.youtube.com/user/SAP',
-  },
-  {
-    name: 'linkedin',
-    link: 'https://www.linkedin.com/company/sap',
-  },
-  {
-    name: 'instagram',
-    link: 'https://www.instagram.com/sap/',
-  },
-  {
-    name: 'email',
-    link: 'mailto:?body=https%3A%2F%2Fwww.sap.com%2Findex.html%3Fsource%3Dsocial-atw-mailto',
-  },
-];
 export default async function decorate(block) {
-  if (block.querySelectorAll(':scope > div').length === 0) {
-    SOCIAL_CONFIGS.forEach((config) => {
-      block.append(div(
-        {},
-        div(
-          {},
-          a(
-            {
-              href: config.link || '#',
-              'aria-label': `Link to SAP ${config.name}`,
-            },
-            span(
-              {
-                class: ['icon', `icon-${config.name}`],
-              },
-            ),
-          ),
-        ),
-      ));
-    });
-  }
-
-  if (block.closest('main')) decorateIcons(block);
+  [...block.children].forEach((child) => {
+    const iconName = child.querySelector('img').getAttribute('data-icon-name');
+    child.querySelector('a').title = iconName;
+    child.querySelector('img').alt = iconName;
+    // add for xwalk
+    const spanTag = child.querySelector('span');
+    const anchorTag = child.querySelector('a');
+    if (anchorTag.querySelector('span')) {
+      // do not do anything since span already inside anchor in doc-based
+    } else {
+      // in x-walk, move the span tag inside the anchor a tag and delete the outside span tag
+      if (spanTag && spanTag.parentElement.tagName.toLowerCase() === 'p') {
+        const parentPTag = spanTag.parentNode;
+        parentPTag.parentNode.removeChild(parentPTag);
+      }
+      anchorTag.textContent = '';
+      anchorTag.appendChild(spanTag);
+    }
+  });
 }
