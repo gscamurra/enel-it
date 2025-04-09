@@ -28,7 +28,8 @@
       "tabs",
       "video",
       "icon-block",
-      "content-fragment-offer"
+      "content-fragment-offer",
+      "note"
     ]
   },
   {
@@ -62,7 +63,8 @@
       "commerce-cart",
       "commerce-checkout",
       "commerce-order-confirmation",
-      "columnsjo"
+      "columnsjo",
+      "note"
     ]
   },
   {
