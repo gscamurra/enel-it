@@ -111,6 +111,18 @@
     ]
   },
   {
+    "id": "social",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "jcr:title",
+        "value": "",
+        "label": "Test"
+      }
+    ]
+  },
+  {
     "id": "image",
     "fields": [
       {
