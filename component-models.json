@@ -438,11 +438,25 @@
     "id": "social",
     "fields": [
       {
-        "component": "text",
+        "component": "select",
+        "name": "instagram_icon",
+        "value": "",
+        "label": "Instagram Icon",
         "valueType": "string",
-        "name": "content_linkText",
-        "label": "Button Text",
-        "value": ""
+        "options": [
+          {
+            "name": "Facebook",
+            "value": ":facebook:"
+          },
+          {
+            "name": "Instagram",
+            "value": ":instagram:"
+          },
+          {
+            "name": "Twitter/X",
+            "value": ":twitter:"
+          }
+        ]
       },
       {
         "component": "aem-content",
