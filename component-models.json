@@ -66,6 +66,18 @@
     ]
   },
   {
+    "id":"custom-text",
+    "fields":[
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "customText",
+        "value": "Default text",
+        "label": "Custom Text"
+      }
+    ]
+  },
+  {
     "id": "title",
     "fields": [
       {
@@ -430,6 +442,95 @@
         "name": "content_link",
         "value": "",
         "label": "Button Link",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "social",
+    "fields": [
+      {
+        "component": "select",
+        "name": "instagram_icon",
+        "value": "",
+        "label": "Instagram Icon",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Facebook",
+            "value": ":facebook:"
+          },
+          {
+            "name": "Instagram",
+            "value": ":instagram:"
+          },
+          {
+            "name": "Twitter/X",
+            "value": ":twitter:"
+          }
+        ]
+      },
+      {
+        "component": "aem-content",
+        "name": "instagram_iconLink",
+        "value": "",
+        "label": "Instagram Link",
+        "valueType": "string"
+      },
+      {
+        "component": "select",
+        "name": "facebook_icon",
+        "value": "",
+        "label": "Facebook Icon",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Facebook",
+            "value": ":facebook:"
+          },
+          {
+            "name": "Instagram",
+            "value": ":instagram:"
+          },
+          {
+            "name": "Twitter/X",
+            "value": ":twitter:"
+          }
+        ]
+      },
+      {
+        "component": "aem-content",
+        "name": "facebook_iconLink",
+        "value": "",
+        "label": "Facebook Link",
+        "valueType": "string"
+      },
+      {
+        "component": "select",
+        "name": "twitter_icon",
+        "value": "",
+        "label": "Twitter Icon",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Facebook",
+            "value": ":facebook:"
+          },
+          {
+            "name": "Instagram",
+            "value": ":instagram:"
+          },
+          {
+            "name": "Twitter/X",
+            "value": ":twitter:"
+          }
+        ]
+      },
+      {
+        "component": "aem-content",
+        "name": "twitter_iconLink",
+        "value": "",
+        "label": "Twitter Link",
         "valueType": "string"
       }
     ]
@@ -1002,6 +1103,18 @@
             "value": "table-5-columns"
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": "product-table",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "quotation",
+        "value": "",
+        "label": "Quotation"
       }
     ]
   },

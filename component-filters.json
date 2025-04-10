@@ -28,7 +28,9 @@
       "tabs",
       "video",
       "icon-block",
-      "content-fragment-offer"
+      "content-fragment-offer",
+      "social",
+      "custom-text"
     ]
   },
   {
@@ -62,7 +64,10 @@
       "commerce-cart",
       "commerce-checkout",
       "commerce-order-confirmation",
-      "columnsjo"
+      "columnsjo",
+      "social",
+      "custom-text",
+      "product-table"
     ]
   },
   {
