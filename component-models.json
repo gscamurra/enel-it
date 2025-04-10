@@ -1107,6 +1107,18 @@
     ]
   },
   {
+    "id": "product-table",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "quotation",
+        "value": "",
+        "label": "Quotation"
+      }
+    ]
+  },
+  {
     "id": "table-col-1",
     "fields": [
       {
