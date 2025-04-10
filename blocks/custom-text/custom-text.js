@@ -1,5 +1,5 @@
 export default async function decorate(block) {
-    // Prende il primo paragrafo e lo inserisce nel blocco
+    // Prendo il primo paragrafo e lo inserisce nel blocco
     const text = block.textContent;
     block.innerHTML = '';
     const p = document.createElement('p');
