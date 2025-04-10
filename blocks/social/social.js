@@ -1,7 +1,7 @@
 //Esporto una funzione asincrona chiamata decorate, che prende un argomento block. block è un elemento DOM, un container con vari figli HTML da decorare o trasformare.
 
 export default async function decorate(block) {
-
+/*
   //Converto block.children (che è una HTMLCollection) in un array per poter usare forEach. Scorre ogni figlio diretto del blocco (child).
   [...block.children].forEach((child) => {
 
@@ -31,4 +31,5 @@ export default async function decorate(block) {
       anchorTag.appendChild(spanTag);
     }
   });
-}
+*/
+  }
